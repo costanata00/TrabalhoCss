@@ -1,0 +1,90 @@
+section {min-height: 100vh;}
+
+section h1{
+    padding-top: 5rem;
+    text-align: center;
+}
+section h5{
+    color: chocolate;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    font-size: 30px;
+    position: sticky;
+    background-color: #0f0f0f;
+    color: white;
+    padding:5px;
+}
+.header img{
+    height: 90px;
+}
+
+.navigation{
+    background-color: chocolate;
+    position: sticky;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-evenly;
+    border: 2px solid chocolate;
+    padding:15px;   
+    gap: 10px;
+  }
+  .navigation a {
+    text-decoration: none;
+    color: white;
+    
+  }
+  .navigation a:hover {
+    background: #0f0f0f;
+    background-size: auto;
+  }
+
+
+
+.jogosPopulares{
+    padding: 10%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.jogosPopulares img{
+    width:30rem;
+    max-width: 100%;
+}
+
+.jogosPopulares p{
+    display: block;
+    max-width: 30rem;
+}
+
+.jogosDesconto{
+    padding: 10%;
+    display: flex;
+    flex-flow: wrap row;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.jogosDesconto img{
+    width:30rem;
+    max-width: 100%;
+}
+
+.jogosDesconto p{
+    display: block;
+    max-width: 30rem;
+}
+
+
+footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
